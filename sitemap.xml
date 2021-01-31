@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://julianstephens.net/</loc>
+    <lastmod>2021-01-30T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://julianstephens.net/portfolio/</loc>
+    <lastmod>2021-01-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://julianstephens.net/blog/</loc>
+    <lastmod>2021-01-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://julianstephens.net/blog/2020-08-26-how-to-get-started-as-a-designer-or-become-a-better-one/</loc>
+    <lastmod>2020-08-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://julianstephens.net/portfolio/2020-04-06-southface-equity-evaluator/</loc>
+    <lastmod>2020-04-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://julianstephens.net/blog/2020-04-06-understanding-mental-models-and-innovation/</loc>
+    <lastmod>2020-04-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://julianstephens.net/about/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://julianstephens.net/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>http://julianstephens.net/tags/</loc>
+  </url>
+  
+</urlset>

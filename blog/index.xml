@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Writing on Julian Stephens</title>
+    <link>http://julianstephens.net/blog/</link>
+    <description>Recent content in Writing on Julian Stephens</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 30 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://julianstephens.net/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to Get Started as a Designer (Or Become a Better One)</title>
+      <link>http://julianstephens.net/blog/2020-08-26-how-to-get-started-as-a-designer-or-become-a-better-one/</link>
+      <pubDate>Wed, 26 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://julianstephens.net/blog/2020-08-26-how-to-get-started-as-a-designer-or-become-a-better-one/</guid>
+      <description>One of the hardest parts of starting any new project or learning a new skill can be figuring out how to get started. There are thousands of blog posts, podcasts, and YouTube videos out there claiming to know the &amp;ldquo;right&amp;rdquo; way to become a great designer. Here&amp;rsquo;s the thing, most of them are complete b.s..
+You don&amp;rsquo;t need to go sell your firstborn for an Adobe CC license or start waking up at zero dark thirty for creative golden hour.</description>
+    </item>
+    
+    <item>
+      <title>Understanding Mental Models  and Innovation</title>
+      <link>http://julianstephens.net/blog/2020-04-06-understanding-mental-models-and-innovation/</link>
+      <pubDate>Mon, 06 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://julianstephens.net/blog/2020-04-06-understanding-mental-models-and-innovation/</guid>
+      <description>What is a mental model? The term mental model comes from Kenneth Craik&amp;rsquo;s book The Nature of Explanation. Craik said that we have internal models of the world that help us in decision-making, problem solving, task performance, and pretty much everything else that we do.
+When people interact with the world, they notice patterns and start to anticipate them. Those patterns then combine and develop into an understanding of how systems function.</description>
+    </item>
+    
+  </channel>
+</rss>
