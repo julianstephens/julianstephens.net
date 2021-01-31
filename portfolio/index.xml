@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projects on Julian Stephens</title>
-    <link>http://julianstephens.net/portfolio/</link>
+    <link>https://julianstephens.net/portfolio/</link>
     <description>Recent content in Projects on Julian Stephens</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 30 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://julianstephens.net/portfolio/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 30 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://julianstephens.net/portfolio/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Southface Equity Evaluator</title>
-      <link>http://julianstephens.net/portfolio/2020-04-06-southface-equity-evaluator/</link>
+      <link>https://julianstephens.net/portfolio/2020-04-06-southface-equity-evaluator/</link>
       <pubDate>Mon, 06 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://julianstephens.net/portfolio/2020-04-06-southface-equity-evaluator/</guid>
+      <guid>https://julianstephens.net/portfolio/2020-04-06-southface-equity-evaluator/</guid>
       <description>Overview Southface is a nonprofit organization that focuses on the tools, technology, and policy that help create sustainable communities. One of the tools that they&amp;rsquo;ve created is the Equity Evaluator. Originally an Excel workbook, the Equity Evaluator helps organizations understand how their developments impact the surrounding communities. You can view it live here!
 Purpose The goal of this project was to turn the Equity Evaluator into a modern web application. This would make it easier for Southface to distribute and monetize the tool.</description>
     </item>
