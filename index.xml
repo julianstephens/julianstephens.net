@@ -8,6 +8,16 @@
     <language>en-us</language>
     <lastBuildDate>Sat, 30 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://julianstephens.net/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Big Data, Big Business, and the Construction of Privacy in Smart Cities</title>
+      <link>https://julianstephens.net/blog/2020-12-08-big-data-big-business-and-the-construction-of-privacy-in-smart-cities/</link>
+      <pubDate>Tue, 08 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://julianstephens.net/blog/2020-12-08-big-data-big-business-and-the-construction-of-privacy-in-smart-cities/</guid>
+      <description>** This work was originally an assignment for my CS 4873: Computing, Society, and Professionalism course at Georgia Tech. **
+ Since the first Sumerian city-states were built in the early 4000s BCE, urban landscapes have simultaneously captured the peaks of human ingenuity and the depths of human depravity. Like no other construction, cities capture the ethos and ego of society. They are where the ball is pushed, great debates are had, and the fate of humanity is decided.</description>
+    </item>
+    
+    <item>
       <title>How to Get Started as a Designer (Or Become a Better One)</title>
       <link>https://julianstephens.net/blog/2020-08-26-how-to-get-started-as-a-designer-or-become-a-better-one/</link>
       <pubDate>Wed, 26 Aug 2020 00:00:00 +0000</pubDate>
@@ -28,7 +38,7 @@ Purpose The goal of this project was to turn the Equity Evaluator into a modern 
     </item>
     
     <item>
-      <title>Understanding Mental Models  and Innovation</title>
+      <title>Understanding Mental Models and Innovation</title>
       <link>https://julianstephens.net/blog/2020-04-06-understanding-mental-models-and-innovation/</link>
       <pubDate>Mon, 06 Apr 2020 00:00:00 +0000</pubDate>
       
