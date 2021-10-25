@@ -1,74 +1,46 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
     <loc>https://julianstephens.net/</loc>
     <lastmod>2021-05-27T14:27:28-04:00</lastmod>
     <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://julianstephens.net/blog/2021-05-27-on-truth/</loc>
     <lastmod>2021-05-27T14:27:28-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://julianstephens.net/blog/2021-03-17-design-resources/</loc>
     <lastmod>2021-05-27T14:27:28-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://julianstephens.net/blog/</loc>
     <lastmod>2021-05-27T14:27:28-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://julianstephens.net/projects/</loc>
     <lastmod>2021-05-26T12:43:34-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://julianstephens.net/blog/2021-01-30-the-taoist-farmer/</loc>
     <lastmod>2021-05-27T14:27:28-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://julianstephens.net/blog/2020-12-08-big-data-big-business-and-the-construction-of-privacy-in-smart-cities/</loc>
     <lastmod>2021-05-27T14:27:28-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://julianstephens.net/blog/2020-11-14-advice-from-the-last-four-years/</loc>
     <lastmod>2021-05-27T14:27:28-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://julianstephens.net/blog/2020-08-26-how-to-get-started-as-a-designer-or-become-a-better-one/</loc>
     <lastmod>2021-05-27T14:27:28-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://julianstephens.net/projects/2020-04-06-southface-equity-evaluator/</loc>
     <lastmod>2021-05-26T12:43:34-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://julianstephens.net/blog/2020-04-06-understanding-mental-models-and-innovation/</loc>
     <lastmod>2021-05-27T14:27:28-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://julianstephens.net/about/</loc>
     <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://julianstephens.net/categories/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://julianstephens.net/tags/</loc>
   </url>
-  
 </urlset>
