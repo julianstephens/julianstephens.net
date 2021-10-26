@@ -493,20 +493,17 @@ body {
 }
 .content a {
   color: #22272a;
-  text-decoration: none;
-  background-image: linear-gradient(transparent, transparent 5px, #22272a 5px, #22272a);
-  background-position: bottom;
-  background-size: 100% 6px;
-  background-repeat: repeat-x;
+  text-decoration: underline;
 }
 .content a:hover {
   color: #D4475B;
-  background-image: linear-gradient(transparent, transparent 5px, #D4475B 5px, #D4475B);
+  text-decoration: underline;
 }
 .content a.icon {
-  background: none;
+  text-decoration: none;
 }
 .content a.icon:hover {
+  text-decoration: none;
   color: #D4475B;
 }
 .content a.icon i {
@@ -530,10 +527,7 @@ body {
 .content h4 a:hover,
 .content h5 a:hover,
 .content h6 a:hover {
-  background-image: linear-gradient(transparent, transparent 6px, rgba(86,124,119,0.4) 6px, rgba(86,124,119,0.4));
-  background-position: bottom;
-  background-size: 100% 6px;
-  background-repeat: repeat-x;
+  text-decoration: underline;
 }
 .content h6 a {
   background: none;
@@ -541,10 +535,7 @@ body {
   text-decoration: none;
 }
 .content h6 a:hover {
-  background-image: linear-gradient(transparent, transparent 6px, rgba(86,124,119,0.4) 6px, rgba(86,124,119,0.4));
-  background-position: bottom;
-  background-size: 100% 6px;
-  background-repeat: repeat-x;
+  text-decoration: underline;
 }
 @media (min-width: 540px) {
   .image-wrap {
@@ -629,10 +620,7 @@ body {
   color: #cc2a41;
 }
 #header #nav ul a:hover {
-  background-image: linear-gradient(transparent, transparent 5px, #cc2a41 5px, #cc2a41);
-  background-position: bottom;
-  background-size: 100% 6px;
-  background-repeat: repeat-x;
+  text-decoration: none;
 }
 #header #nav ul li {
   display: inline-block;
@@ -701,9 +689,10 @@ body {
   text-decoration: none;
 }
 #header-post a.icon {
-  background: none;
+  text-decoration: none;
 }
 #header-post a.icon:hover {
+  text-decoration: none;
   color: #D4475B;
 }
 #header-post nav ul {
@@ -784,10 +773,7 @@ body {
   color: #cc2a41;
 }
 #header-post #nav ul a:hover {
-  background-image: linear-gradient(transparent, transparent 5px, #cc2a41 5px, #cc2a41);
-  background-position: bottom;
-  background-size: 100% 6px;
-  background-repeat: repeat-x;
+  text-decoration: underline;
 }
 #header-post #nav ul li {
   border-right: 1px dotted #cc2a41;
@@ -926,9 +912,10 @@ body {
   text-decoration: none;
 }
 #footer-post a.icon {
-  background: none;
+  text-decoration: none;
 }
 #footer-post a.icon:hover {
+  text-decoration: none;
   color: #D4475B;
 }
 #footer-post #nav-footer {
@@ -942,10 +929,7 @@ body {
   font-size: 1em;
 }
 #footer-post #nav-footer a:hover {
-  background-image: linear-gradient(transparent, transparent 5px, #cc2a41 5px, #cc2a41);
-  background-position: bottom;
-  background-size: 100% 6px;
-  background-repeat: repeat-x;
+  text-decoration: underline;
 }
 #footer-post #nav-footer ul {
   display: table;
@@ -1154,11 +1138,11 @@ article .content blockquote footer {
   font-size: 11px;
 }
 article .content blockquote footer a {
-  background-image: linear-gradient(transparent, transparent 5px, #666 5px, #666);
+  text-decoration: underline;
   color: #666;
 }
 article .content blockquote footer a:hover {
-  background-image: linear-gradient(transparent, transparent 4px, #858585 4px, #858585);
+  text-decoration: underline;
   color: #858585;
 }
 article .content blockquote footer cite:before {
@@ -1198,19 +1182,13 @@ article .content .caption {
   line-height: 1.25;
 }
 .article-tag .tag-link {
-  background-image: linear-gradient(transparent, transparent 10px, rgba(86,124,119,0.4) 10px, rgba(86,124,119,0.4));
-  background-position: bottom;
-  background-size: 100% 6px;
-  background-repeat: repeat-x;
+  text-decoration: underline;
 }
 .article-tag .tag-link:before {
   content: "#";
 }
 .article-category .category-link {
-  background-image: linear-gradient(transparent, transparent 10px, rgba(86,124,119,0.4) 10px, rgba(86,124,119,0.4));
-  background-position: bottom;
-  background-size: 100% 6px;
-  background-repeat: repeat-x;
+  text-decoration: underline;
 }
 @media (min-width: 480px) {
   .article-tag,
@@ -1285,7 +1263,6 @@ article .content .caption {
 #footer a {
   color: #22272A;
   text-decoration: underline;
-  background-image: none;
 }
 #footer a:hover {
   color: #D4475B;
@@ -1325,7 +1302,6 @@ article .content .caption {
 .pagination a {
   padding: 4px 6px;
   border-radius: 5px;
-  background-image: none;
   color: #22272a;
   text-decoration: none;
 }
@@ -1547,16 +1523,13 @@ code {
   color: #757575;
   font-style: italic;
   font-size: 0.8em;
-  background-image: linear-gradient(transparent, transparent 10px, rgba(86,124,119,0.4) 10px, rgba(86,124,119,0.4));
-  background-position: bottom;
-  background-size: 100% 6px;
-  background-repeat: repeat-x;
+  text-decoration: underline;
 }
 .highlight figcaption a:hover {
   color: #22272A;
 }
 .highlight figcaption:before,
-.highlight figcaption content: "" {
+.highlight figcaption {
   display: table;
 }
 .highlight figcaption:after {
