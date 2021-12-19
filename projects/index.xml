@@ -6,7 +6,11 @@
     <description>Recent content in Projects on Julian Stephens</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 30 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://julianstephens.net/projects/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 30 Jan 2021 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://julianstephens.net/projects/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>Southface Equity Evaluator</title>
       <link>https://julianstephens.net/projects/2020-04-06-southface-equity-evaluator/</link>
