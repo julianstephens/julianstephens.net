@@ -14,7 +14,7 @@ import { SOCIALS } from "@config";
 const posts = await getCollection("blog");
 
 const sortedPosts = getSortedPosts(posts);
-const featuredPosts = sortedPosts.filter(({ data }) => data.featured);
+// const featuredPosts = sortedPosts.filter(({ data }) => data.featured);
 
 const socialCount = SOCIALS.filter(social => social.active).length;
 ---
@@ -23,7 +23,7 @@ const socialCount = SOCIALS.filter(social => social.active).length;
   <Header />
   <main id="main-content">
     <section id="hero">
-      <h1>Mingalaba</h1>
+      <h1>julian stephens</h1>
       <a
         target="_blank"
         href="/rss.xml"
@@ -41,25 +41,20 @@ const socialCount = SOCIALS.filter(social => social.active).length;
       </a>
 
       <p>
-        AstroPaper is a minimal, responsive, accessible and SEO-friendly Astro
-        blog theme. This theme follows best practices and provides accessibility
-        out of the box. Light and dark mode are supported by default. Moreover,
-        additional color schemes can also be configured.
-      </p>
-      <p>
-        Read the blog posts or check
-        <LinkButton
-          className="hover:text-skin-accent underline underline-offset-4 decoration-dashed"
-          href="https://github.com/satnaing/astro-paper#readme"
+        hi, i&apos;m julian! i&apos;m a <LinkButton
+          href="https://linkedin.com/in/juliangstephens"
+          blankTarget
         >
-          README
-        </LinkButton> for more info.
+          cyber security associate engineer at nbcuniversal
+        </LinkButton>. cyborg coffeehouse is my digital home. this is where i
+        think, create, and explore. click around to find out more about what
+        i&apos;ve been up to lately.
       </p>
       {
         // only display if at least one social link is enabled
         socialCount > 0 && (
           <div class="social-wrapper">
-            <div class="social-links">Social Links:</div>
+            <div class="social-links">social links:</div>
             <Socials />
           </div>
         )
@@ -68,25 +63,51 @@ const socialCount = SOCIALS.filter(social => social.active).length;
 
     <Hr />
 
-    {
-      featuredPosts.length > 0 && (
-        <>
-          <section id="featured">
-            <h2>Featured</h2>
-            <ul>
-              {featuredPosts.map(({ data }) => (
-                <Card
-                  href={`/posts/${slugify(data)}`}
-                  frontmatter={data}
-                  secHeading={false}
-                />
-              ))}
-            </ul>
-          </section>
-          <Hr />
-        </>
-      )
-    }
+    <!-- <section id="journal"> -->
+    <!--   <h2 class="mb-4">journal</h2> -->
+    <!--   <p>here&apos;s a few things i&apos;ve enjoyed recently</p> -->
+    <!--   <ul class="flex flex-col gap-4 my-6"> -->
+    <!--     <li> -->
+    <!--       <LinkButton -->
+    <!--         className="decoration-dashed" -->
+    <!--         href="https://www.goodreads.com/en/book/show/20518872" -->
+    <!--         blankTarget -->
+    <!--       > -->
+    <!--         The Three-Body Problem by liu cixin -->
+    <!--       </LinkButton> -->
+    <!--     </li> -->
+    <!--     <li> -->
+    <!--       <LinkButton href="https://youtu.be/i9VPPmQn9HQ" blankTarget> -->
+    <!--         Prof. Edward Grefenstette on Machine Learning Street Talk -->
+    <!--       </LinkButton> -->
+    <!--     </li> -->
+    <!--   </ul> -->
+    <!--   <p class="opacity-70"> -->
+    <!--     <Datetime datetime="2023-07-23T14:00" /> -->
+    <!--   </p> -->
+    <!-- </section> -->
+
+    <!-- { -->
+    <!--   featuredPosts.length > 0 && ( -->
+    <!--     <> -->
+    <!--       <section id="featured"> -->
+    <!--         <h2>Featured</h2> -->
+    <!--         <ul> -->
+    <!--           {featuredPosts.map(({ data }) => ( -->
+    <!--             <Card -->
+    <!--               href={`/posts/${slugify(data)}`} -->
+    <!--               frontmatter={data} -->
+    <!--               secHeading={false} -->
+    <!--             /> -->
+    <!--           ))} -->
+    <!--         </ul> -->
+    <!--       </section> -->
+    <!--       <Hr /> -->
+    <!--     </> -->
+    <!--   ) -->
+    <!-- } -->
+
+    <Hr />
 
     <section id="recent-posts">
       <h2>Recent Posts</h2>
@@ -145,13 +166,16 @@ const socialCount = SOCIALS.filter(social => social.active).length;
   }
 
   /* ===== Featured & Recent Posts Sections ===== */
-  #featured,
+  #journal,
   #recent-posts {
     @apply pb-6 pt-12;
   }
-  #featured h2,
+  #journal h2,
   #recent-posts h2 {
     @apply text-2xl font-semibold tracking-wide;
+  }
+  #journal > a {
+    @apply decoration-dotted;
   }
   .all-posts-btn-wrapper {
     @apply my-8 text-center;

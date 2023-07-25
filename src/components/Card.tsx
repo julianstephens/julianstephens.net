@@ -1,5 +1,5 @@
-import Datetime from "./Datetime";
 import type { BlogFrontmatter } from "@content/_schemas";
+import Datetime from "./Datetime";
 
 export interface Props {
   href?: string;
